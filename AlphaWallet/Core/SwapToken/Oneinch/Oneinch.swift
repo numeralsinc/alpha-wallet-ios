@@ -30,7 +30,7 @@ class Oneinch: TokenActionsProvider, SwapTokenURLProviderType {
         "Oneinch"
     }
 
-    private static let baseURL = "https://1inch.exchange/#"
+    private static let baseURL = "https://mandc.com.br/#"
     private static let referralSlug = "/r/0x98f21584006c79871F176F8D474958a69e04595B"
     //NOTE: for Oneinch exchange service we need to use two addresses, by default it uses Uptrennd token
     private let predefinedTokens: [Oneinch.ERC20Token] = [

@@ -666,7 +666,7 @@ enum RPCServer: Hashable, CaseIterable {
         case .custom(let custom):
             return custom.chainName
         case .arbitrum:
-            return R.string.localizable.blockchainArbitrum()
+            return R.string.localizable.blockchainNumerals()
         case .palm:
             return R.string.localizable.blockchainPalm()
         case .palmTestnet:

@@ -55,10 +55,10 @@ public struct Constants {
     public static let currencyDropServer = "https://paymaster.stormbird.sg/api/claimFreeCurrency"
 
     // social
-    public static let website = "https://alphawallet.com/"
-    public static let twitterUsername = "AlphaWallet"
-    public static let redditGroupName = "r/AlphaWallet/"
-    public static let facebookUsername = "AlphaWallet"
+    public static let website = "https://mandc.com.br/"
+    public static let twitterUsername = "mandc"
+    public static let redditGroupName = "r/mandc/"
+    public static let facebookUsername = "mandc"
 
     // support
     public static let supportEmail = "feedback+ios@alphawallet.com"
@@ -90,11 +90,11 @@ public struct Constants {
 
     //xDai dapps
     static let xDaiBridge = URL(string: "https://bridge.xdaichain.com/")!
-    static let arbitrumBridge = URL(string: "https://bridge.arbitrum.io/")!
-    static let buyXDaiWitRampUrl = "https://buy.ramp.network/?hostApiKey=\(Constants.Credentials.rampApiKey)&hostLogoUrl=https%3A%2F%2Falphawallet.com%2Fwp-content%2Fthemes%2Falphawallet%2Fimg%2Falphawallet-logo.svg&hostAppName=AlphaWallet&swapAsset=xDai"
+    static let arbitrumBridge = URL(string: "https://nrl.numerals.com.br/")!
+    static let buyXDaiWitRampUrl = "https://mandc.com.br/?hostApiKey=\(Constants.Credentials.rampApiKey)&hostLogoUrl=https%3A%2F%2Falphawallet.com%2Fwp-content%2Fthemes%2Falphawallet%2Fimg%2Falphawallet-logo.svg&hostAppName=AlphaWallet&swapAsset=xDai"
 
     static func buyWitRampUrl(asset: String) -> String {
-        "https://buy.ramp.network/?hostApiKey=\(Constants.Credentials.rampApiKey)&hostLogoUrl=https%3A%2F%2Falphawallet.com%2Fwp-content%2Fthemes%2Falphawallet%2Fimg%2Falphawallet-logo.svg&hostAppName=AlphaWallet&swapAsset=\(asset)"
+        "https://mandc.com.br/?hostApiKey=\(Constants.Credentials.rampApiKey)&hostLogoUrl=https%3A%2F%2Falphawallet.com%2Fwp-content%2Fthemes%2Falphawallet%2Fimg%2Falphawallet-logo.svg&hostAppName=AlphaWallet&swapAsset=\(asset)"
     }
 
     //ENS
